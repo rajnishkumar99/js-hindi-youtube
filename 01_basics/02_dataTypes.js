@@ -11,6 +11,7 @@ let name = "rajnish"
 let age = 18
 let isLoggedIn = false
 let state;
+
 /* primitive data type */
 
 // number range => 2 to power 53

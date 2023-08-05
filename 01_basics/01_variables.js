@@ -6,7 +6,7 @@ accountCity = "Jaipur"
 accountEmail = "razz@gamil.com"
 accountPassword = "565656"
 accountCity = "Bihar"
-let accountState
+let accountState;
 
 // accountId = 55    //not allowed
 /*
