@@ -36,8 +36,8 @@ let stringNumber = String(someNumber);
 
 // *************** Operations *************** 
 
-let value = 3
-let negValue = -value
+let value = 3;
+let negValue = -value;
 // console.log(negValue);
 
 // console.log(2+2);
@@ -47,3 +47,25 @@ let negValue = -value
 // console.log(2/2);
 // console.log(2%2);
 
+let str1 = "hello";
+let str2 = " Rajnish";
+let str3 = str1+str2;
+
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(3 + 4 * 10 / 5);
+
+let gameCounter = 100;
+let postfix = gameCounter++;
+
+// console.log(gameCounter, postfix);
+
+let gameCounter2 = 100;
+let prefix = ++gameCounter2;
+
+// console.log(gameCounter, prefix);
