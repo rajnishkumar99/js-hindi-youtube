@@ -44,7 +44,34 @@ let myObj = {
 
 
 const myFunction = function(){
-    console.log("Hello World");
+    // console.log("Hello World");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+
+
+/* ********* ⬇️ Memory In JavaScript ⬇️ ********** */
+
+// Stack (Primitive)
+// Heap (Non Primitive)
+
+let myYoutubename = "rajnish.com"
+
+let anothername = myYoutubename
+anothername = "Raaz"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "raaz@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
