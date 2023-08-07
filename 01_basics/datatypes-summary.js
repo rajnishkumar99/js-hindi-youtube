@@ -33,3 +33,18 @@ Array
 Objects
 Functions
 */
+
+const heros = ["ram", "shyam", "mohan", "radha"]
+
+
+let myObj = {
+    name: "hithsh",
+    age: 22,
+}
+
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof myFunction);
